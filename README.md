@@ -17,7 +17,8 @@ StealJS Element to dedublicate Steal Loading and other optimizations like supply
 ```html
 <!-- Scoped The Steal tag it self holds a own Steal version that can be shared via selecting the tag-->
 <steal baseURL="" scoped>
-  // All steal-module tags between the Tag is using this.currentScript.Steal
+  <!-- All steal-module tags between the Tag is using this.currentScript.Steal -->
+  <h1>I am Scoped</h1>
   <!-- When scoped is set this is not a script tag content its HTML element-->
   <steal-module>
   // All between the Tag is using this.currentScript.Steal
